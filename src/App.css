@@ -1,0 +1,34 @@
+/* src/App.css */
+.App {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px; /* Largura do menu lateral */
+  background-color: #f4f4f4; /* Cor de fundo do menu */
+  padding: 20px; /* Espaçamento interno */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.sidebar nav ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o padding */
+}
+
+.sidebar nav ul li {
+  margin: 10px 0; /* Espaçamento entre os itens do menu */
+}
+
+.sidebar nav ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #333; /* Cor do texto */
+}
+
+.sidebar nav ul li a:hover {
+  color: #007bff; /* Cor ao passar o mouse */
+}
+
+.content {
+  flex: 1; /* O conteúdo ocupa o restante do espaço */
+  padding: 20px; /* Espaçamento interno do conteúdo */
+}
